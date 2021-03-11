@@ -1,0 +1,1 @@
+/usr/bin/c++    -O3 -std=c++11 -pthread   CMakeFiles/l01.dir/main.cpp.o  -o ../../l01  -L/usr/local/lib  -L/home/one/src/leetcode/build -rdynamic 
