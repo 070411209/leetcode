@@ -24,6 +24,6 @@ link_directories(
 option(SIMULATION "compile for simulation" OFF)
 
 ##-----------------------------------------------------
-add_subdirectory(src/L01)
+add_subdirectory(src)
 ##-----------------------------------------------------
 
