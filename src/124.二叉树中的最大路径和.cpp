@@ -19,18 +19,17 @@
 class Solution {
 public:
     int ans = INT_MIN;
-    
-    int maxPathSum(TreeNode* root) {      
+    int maxPathSum(TreeNode* root) {    
         oneSideMax(root);
         return ans;
     }
 
     int oneSideMax(TreeNode* root) {
-        if(root == nullptr) return 0;
-        int left_ = max(0, maxPathSum(root->left));
-        int right_ = max(0, maxPathSum(root->right));
+        if (root == nullptr) return 0;
+        int left_ = max(0, oneSideMax(root->left));
+        int right_ = max(0, oneSideMax(root->right));
         ans = max(ans, left_ + right_ + root->val);
-        return max(left_, right_) + root->val;        
+        return max(left_, right_) + root->val;
     }
 };
 // @lc code=end
