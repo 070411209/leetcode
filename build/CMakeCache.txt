@@ -181,10 +181,10 @@ camera_agent_BINARY_DIR:STATIC=/home/one/src/leetcode/build/src/L01
 camera_agent_SOURCE_DIR:STATIC=/home/one/src/leetcode/src/L01
 
 //Value Computed by CMake
-l01_BINARY_DIR:STATIC=/home/one/src/leetcode/build/src/L01
+l01_BINARY_DIR:STATIC=/home/one/src/leetcode/build/src
 
 //Value Computed by CMake
-l01_SOURCE_DIR:STATIC=/home/one/src/leetcode/src/L01
+l01_SOURCE_DIR:STATIC=/home/one/src/leetcode/src
 
 //Value Computed by CMake
 test_BINARY_DIR:STATIC=/home/one/src/leetcode/build/src/L01

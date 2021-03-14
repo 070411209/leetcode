@@ -60,57 +60,57 @@ CMAKE_SOURCE_DIR = /home/one/src/leetcode
 CMAKE_BINARY_DIR = /home/one/src/leetcode/build
 
 #=============================================================================
-# Directory level rules for directory src/L01
+# Directory level rules for directory src
 
 # Convenience name for "all" pass in the directory.
-src/L01/all: src/L01/CMakeFiles/l01.dir/all
+src/all: src/CMakeFiles/l01.dir/all
 
-.PHONY : src/L01/all
+.PHONY : src/all
 
 # Convenience name for "clean" pass in the directory.
-src/L01/clean: src/L01/CMakeFiles/l01.dir/clean
+src/clean: src/CMakeFiles/l01.dir/clean
 
-.PHONY : src/L01/clean
+.PHONY : src/clean
 
 # Convenience name for "preinstall" pass in the directory.
-src/L01/preinstall:
+src/preinstall:
 
-.PHONY : src/L01/preinstall
+.PHONY : src/preinstall
 
 #=============================================================================
-# Target rules for target src/L01/CMakeFiles/l01.dir
+# Target rules for target src/CMakeFiles/l01.dir
 
 # All Build rule for target.
-src/L01/CMakeFiles/l01.dir/all:
-	$(MAKE) -f src/L01/CMakeFiles/l01.dir/build.make src/L01/CMakeFiles/l01.dir/depend
-	$(MAKE) -f src/L01/CMakeFiles/l01.dir/build.make src/L01/CMakeFiles/l01.dir/build
+src/CMakeFiles/l01.dir/all:
+	$(MAKE) -f src/CMakeFiles/l01.dir/build.make src/CMakeFiles/l01.dir/depend
+	$(MAKE) -f src/CMakeFiles/l01.dir/build.make src/CMakeFiles/l01.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/one/src/leetcode/build/CMakeFiles --progress-num=1,2 "Built target l01"
-.PHONY : src/L01/CMakeFiles/l01.dir/all
+.PHONY : src/CMakeFiles/l01.dir/all
 
 # Include target in all.
-all: src/L01/CMakeFiles/l01.dir/all
+all: src/CMakeFiles/l01.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-src/L01/CMakeFiles/l01.dir/rule: cmake_check_build_system
+src/CMakeFiles/l01.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/one/src/leetcode/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 src/L01/CMakeFiles/l01.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/l01.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/one/src/leetcode/build/CMakeFiles 0
-.PHONY : src/L01/CMakeFiles/l01.dir/rule
+.PHONY : src/CMakeFiles/l01.dir/rule
 
 # Convenience name for target.
-l01: src/L01/CMakeFiles/l01.dir/rule
+l01: src/CMakeFiles/l01.dir/rule
 
 .PHONY : l01
 
 # clean rule for target.
-src/L01/CMakeFiles/l01.dir/clean:
-	$(MAKE) -f src/L01/CMakeFiles/l01.dir/build.make src/L01/CMakeFiles/l01.dir/clean
-.PHONY : src/L01/CMakeFiles/l01.dir/clean
+src/CMakeFiles/l01.dir/clean:
+	$(MAKE) -f src/CMakeFiles/l01.dir/build.make src/CMakeFiles/l01.dir/clean
+.PHONY : src/CMakeFiles/l01.dir/clean
 
 # clean rule for target.
-clean: src/L01/CMakeFiles/l01.dir/clean
+clean: src/CMakeFiles/l01.dir/clean
 
 .PHONY : clean
 

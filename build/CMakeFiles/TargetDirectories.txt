@@ -1,5 +1,5 @@
 /home/one/src/leetcode/build/CMakeFiles/edit_cache.dir
 /home/one/src/leetcode/build/CMakeFiles/rebuild_cache.dir
-/home/one/src/leetcode/build/src/L01/CMakeFiles/edit_cache.dir
-/home/one/src/leetcode/build/src/L01/CMakeFiles/rebuild_cache.dir
-/home/one/src/leetcode/build/src/L01/CMakeFiles/l01.dir
+/home/one/src/leetcode/build/src/CMakeFiles/edit_cache.dir
+/home/one/src/leetcode/build/src/CMakeFiles/rebuild_cache.dir
+/home/one/src/leetcode/build/src/CMakeFiles/l01.dir

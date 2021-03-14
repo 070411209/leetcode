@@ -120,7 +120,7 @@ l01: cmake_check_build_system
 
 # fast build rule for target.
 l01/fast:
-	$(MAKE) -f src/L01/CMakeFiles/l01.dir/build.make src/L01/CMakeFiles/l01.dir/build
+	$(MAKE) -f src/CMakeFiles/l01.dir/build.make src/CMakeFiles/l01.dir/build
 .PHONY : l01/fast
 
 # Help Target
